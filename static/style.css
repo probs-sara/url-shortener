@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik+Scribble&family=Workbench&display=swap');
+
+html {
+    font-family: "Crimson Text", serif;
+    background-image: linear-gradient(-20deg, #FFD6AD 0%, #E09B8F 100%);
+    background-size: cover;
+    min-height: 100%;
+}
+
+.app-container {
+    width: 40%;
+    max-width: 50%;
+    margin: 30px auto;
+    border: 2px solid #721121;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Crimson Text", serif;
+    background-color: #FFECD6;
+
+}
+
+.title {
+    text-align: center;
+    color: #721121;
+}
+
+.enter {
+    font-size: 20px;
+    width: 100%;
+}
+
+.url {
+    width: 90%;
+    border: 1px solid #721121;
+    background-color: #FFD6AD;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.generate {
+    border-radius: 20px;
+    border: 1px solid #721121;
+    background-color: #A5402D;
+    color: #FFCF99;
+    padding: 5px 10px;
+    position: block;
+    margin: auto;
+    font-family: "Crimson Text", serif;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.generate:hover {
+    background-color: #721121;
+    color: #FFCF99;
+}
+
+.button {
+    margin: 10px auto;
+    
+}
+
+.gentext {
+    font-size: 20px;
+    color: #721121;
+}
+
+.genurl {
+    width: 90%;
+    border: 1px solid #721121;
+    background-color: #FFD6AD;
+    padding: 5px 10px;
+    border-radius: 20px;
+}

@@ -3,17 +3,24 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="static/style.css" />
     <title>url shortener</title>
  </head>
  <body>
-    <h1>welcome to the url shortener!</h1>
-    <form method="post" action="/">
-        <label for="url">enter an https:// url please: </label>
-        <input type="url" name="url" id="url" placeholder="https://www.example.com" pattern="https://.*" size="50" value="{{old_url}}" required>
-        <button type="submit" value="submit">generate!</button>
-        <br>
-        <label>generated url here: </label>
-        <input name="generated_url" value="{{new_url}}" style="margin-top: 10px; margin-left:35px" size="50"></input>
-    </form>
+    <div class="app-container">
+        <h1 class="title">url shortener</h1>
+        <form class="form" method="post" action="/">
+            <label class="enter" for="url">enter an https:// url please: </label>
+            <br>
+            <input class="url" type="url" name="url" id="url" placeholder="https://www.example.com" pattern="https://.*" size="50" value="{{old_url}}" required>
+            <div class="button">
+                <button class="generate" type="submit" value="submit">generate my short url</button>
+            </div>
+            <br>
+            <label class="gentext">here is your short url: </label>
+            <br>
+            <input class="genurl" name="generated_url" value="{{new_url}}" size="50"></input>
+        </form>
+    </div>
  </body>
  </html>
